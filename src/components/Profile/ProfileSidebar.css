@@ -4,6 +4,9 @@
 
   flex: 0.4;
 }
-.profileSidebar {
-  position: sticky;
+@media (min-height: 300px) {
+  .profileSidebar div {
+    position: sticky;
+    top: 60px;
+  }
 }
