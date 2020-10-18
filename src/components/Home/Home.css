@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+.appBody {
+  display: flex;
+}
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+.appBody {
+  display: flex;
+}
+.sidebarLeft {
+  height: auto;
+  flex: 0.3;
+}
+.sidebarRight {
+  height: auto;
+  flex: 0.3;
+}
+.containerFeed {
+  flex: 0.4;
+}
+.navbar {
+  height: 40px;
+}
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f1f2f5;
+}
+
+.navbar {
+  height: 40px;
+}
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f1f2f5;
+}

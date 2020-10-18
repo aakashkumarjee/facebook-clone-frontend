@@ -1,0 +1,13 @@
+.contact {
+  display: flex;
+  height: 60px;
+}
+.contactImage {
+  margin: 0;
+  align-self: center;
+}
+.contact > h3 {
+  margin: 0;
+  margin-left: 20px;
+  align-self: center;
+}

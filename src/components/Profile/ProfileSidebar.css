@@ -1,0 +1,9 @@
+.profileSidebar {
+  display: flex;
+  flex-direction: column;
+
+  flex: 0.4;
+}
+.profileSidebar {
+  position: sticky;
+}

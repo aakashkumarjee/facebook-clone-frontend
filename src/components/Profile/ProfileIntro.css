@@ -1,0 +1,44 @@
+.profileIntro {
+  background: white;
+  margin: 15px;
+  border-radius: 15px;
+  border: solid 1px rgba(128, 128, 128, 0.212);
+  padding: 15px;
+}
+
+.profileIntro > h3 {
+  margin: 0 0 5px 0;
+}
+.profileIntroButton > div {
+  margin-top: 10px;
+  border: none;
+  background: rgba(128, 128, 128, 0.37);
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.profileIntroButton > div > span {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.733);
+  cursor: pointer;
+}
+
+.profileIntroButton:hover {
+  background: rgba(128, 128, 128, 0.486);
+}
+.profileIntroElement {
+  display: flex;
+}
+.profileIntroElement > div {
+  padding-left: 4px;
+  padding-bottom: 5px;
+}
+.profileIntroElement > .MuiSvgIcon-root {
+  font-size: 19px;
+  margin: auto 4px auto 0px;
+  color: rgba(119, 113, 113, 0.897);
+}

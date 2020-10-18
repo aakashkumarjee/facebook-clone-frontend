@@ -1,0 +1,17 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  background: #f1f2f5;
+}
+.profileTopCard {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 10px;
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
+}
+:root {
+  --profileHeight: 500px;
+}

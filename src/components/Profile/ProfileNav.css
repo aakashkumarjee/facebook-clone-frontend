@@ -1,0 +1,55 @@
+.profileNav {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  background: white;
+}
+.profileNavContainer {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+}
+.profileNavOptions {
+  display: flex;
+}
+.profileNavOption {
+  padding: 10px;
+  color: rgb(114, 111, 111);
+  cursor: pointer;
+}
+.profileNavOption > h3 {
+  font-weight: 600;
+}
+
+.profileNavOption:hover {
+  background: rgba(128, 128, 128, 0.205);
+  border-radius: 5px;
+}
+.profileNavOption > h3 {
+  margin: 0px;
+  font-size: 0.9375rem;
+}
+.profileNavButtons {
+  display: flex;
+}
+.profileNavButton {
+  cursor: pointer;
+  margin-left: 10px;
+  background: rgba(128, 128, 128, 0.253);
+  border-radius: 6px;
+  display: flex;
+  padding: 5px;
+}
+.profileNavButton:hover {
+  background: rgba(128, 128, 128, 0.486);
+}
+.profileNavButton > span {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: auto;
+}
+.profileNavButton > .MuiSvgIcon-root {
+  margin: auto 5px;
+  font-size: 1.4rem;
+}

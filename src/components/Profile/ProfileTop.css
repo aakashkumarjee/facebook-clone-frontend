@@ -1,0 +1,66 @@
+.profileTop {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1050px;
+  background: white;
+}
+.profileTopContainer {
+  width: 100%;
+  margin: auto;
+}
+.coverImage {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border-radius: 0px 0px max(0px, min(8px, ((100vw - 4px) - 100%) * 9999))
+    max(0px, min(8px, ((100vw - 4px) - 100%) * 9999)) / 0px 0px 8px 8px;
+  background: url("https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png");
+}
+.profileTopBio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  justify-content: center;
+  display: flex;
+}
+.name > h1 {
+  margin-bottom: 0;
+}
+.addBio > p {
+  margin: 0;
+  color: var(--main-fg-color);
+  font-weight: 500;
+}
+.addBio {
+  justify-content: center;
+  display: flex;
+}
+.profilePic {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.profileTopBio {
+  margin-top: -150px;
+}
+.profilePicContainer {
+  height: 168px;
+  width: 168px;
+  z-index: 999;
+}
+
+.profilePicContainer > img {
+  height: 168px;
+  width: 168px;
+  border-radius: 999px;
+  border: 5px solid white;
+}
+hr {
+  width: 100%;
+  height: 0px;
+  border-top: 1px solid rgba(128, 128, 128, 0.568);
+}
