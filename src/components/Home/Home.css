@@ -5,6 +5,7 @@ body {
 }
 .appBody {
   display: flex;
+  background: #f1f2f5;
 }
 html,
 body {

@@ -1,8 +1,10 @@
 import React from "react";
 import SearchIcon from "@material-ui/icons/Search";
+import { Link } from "react-router-dom";
 function LeftNav() {
   return (
     <div className="leftNav">
+      <Link to="/">
       <div>
         <img
           className="logo"
@@ -10,6 +12,7 @@ function LeftNav() {
           alt=""
         />
       </div>
+      </Link>
       <div className="search">
         <SearchIcon />
         <input placeholder="Search Facebook" type="text" />

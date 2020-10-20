@@ -18,7 +18,7 @@ function StoryReel() {
       />
       <Story
         title="Story"
-        image="https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        image="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
       />
       <Story
         title="Suns"

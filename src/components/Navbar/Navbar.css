@@ -70,4 +70,8 @@
 }
 .navProfile > h4 {
   margin-left: 10px;
+  color: black;
+}
+.rightNav > a {
+  text-decoration: none;
 }
